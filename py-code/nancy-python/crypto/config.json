@@ -1,0 +1,31 @@
+{
+  "exchange": {
+    "name": "binance",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "key": "67e1b15f-92fd-46ee-91f3-80ad7d8dd279",
+    "secret": "B17F1E3CF2E0BB88C1E3B8A8A044724C",
+    "ccxt_config": {
+      "enableRateLimit": true,
+      "options": {
+        "ws": {
+          "proxy": {
+            "http": "http://127.0.0.1:7890",
+            "https": "http://127.0.0.1:7890"
+          }
+        }
+      },
+      "proxies": {
+        "http": "http://127.0.0.1:7890",
+        "https": "http://127.0.0.1:7890"
+      },
+      "aiohttp_proxy": "http://127.0.0.1:7890",
+      "aiohttps_proxy": "https://127.0.0.1:7890",
+      "timeout": 30000,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+      }
+    }
+  }
+}
