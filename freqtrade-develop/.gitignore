@@ -1,0 +1,165 @@
+# Freqtrade rules
+config*.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+logfile.txt
+user_data/*
+!user_data/strategy/sample_strategy.py
+!user_data/notebooks
+!user_data/models
+!user_data/freqaimodels
+user_data/freqaimodels/*
+user_data/models/*
+user_data/notebooks/*
+freqtrade-plot.html
+freqtrade-profit-plot.html
+freqtrade/rpc/api_server/ui/*
+build_helpers/ta-lib/*
+
+# Macos related
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# memray
+memray-*
+
+# Sphinx documentation
+docs/_build/
+# Mkdocs documentation
+site/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+.env
+.venv
+.idea
+.vscode
+
+.pytest_cache/
+.mypy_cache/
+
+#exceptions
+!*.gitkeep
+!config_examples/config_binance.example.json
+!config_examples/config_full.example.json
+!config_examples/config_kraken.example.json
+!config_examples/config_freqai.example.json
+
+docker-compose-*.yml
+/.github/.devcontainer/devcontainer.json
+/.github/.devcontainer/Dockerfile
+/.github/ISSUE_TEMPLATE/bug_report.md
+/.github/ISSUE_TEMPLATE/config.yml
+/.github/ISSUE_TEMPLATE/feature_request.md
+/.github/ISSUE_TEMPLATE/question.md
+/.github/workflows/binance-lev-tier-update.yml
+/.github/workflows/ci.yml
+/.github/workflows/deploy-docs.yml
+/.github/workflows/devcontainer-build.yml
+/.github/workflows/docker-update-readme.yml
+/.github/workflows/pre-commit-update.yml
+/.github/dependabot.yml
+/.github/FUNDING.yml
+/.github/PULL_REQUEST_TEMPLATE.md
+/python3.12_venv/bin/activate
+/python3.12_venv/bin/activate.csh
+/python3.12_venv/bin/activate.fish
+/python3.12_venv/bin/Activate.ps1
+/python3.12_venv/bin/f2py
+/python3.12_venv/bin/fastapi
+/python3.12_venv/bin/fonttools
+/python3.12_venv/bin/freqtrade
+/python3.12_venv/bin/freqtrade-client
+/python3.12_venv/bin/httpx
+/python3.12_venv/bin/jsonschema
+/python3.12_venv/bin/markdown-it
+/python3.12_venv/bin/normalizer
+/python3.12_venv/bin/pip
+/python3.12_venv/bin/pip3
+/python3.12_venv/bin/pip3.12
+/python3.12_venv/bin/pwiz.py
+/python3.12_venv/bin/py.test
+/python3.12_venv/bin/pyaml
+/python3.12_venv/bin/pyftmerge
+/python3.12_venv/bin/pyftsubset
+/python3.12_venv/bin/pygmentize
+/python3.12_venv/bin/pytest
+/python3.12_venv/bin/python
+/python3.12_venv/bin/python3
+/python3.12_venv/bin/python3.12
+/python3.12_venv/bin/sample
+/python3.12_venv/bin/tabulate
+/python3.12_venv/bin/ttx
+/python3.12_venv/bin/uvicorn
+/python3.12_venv/share/man/man1/ttx.1
+/python3.12_venv/pyvenv.cfg
