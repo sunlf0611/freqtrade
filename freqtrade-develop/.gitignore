@@ -163,3 +163,4 @@ docker-compose-*.yml
 /python3.12_venv/bin/uvicorn
 /python3.12_venv/share/man/man1/ttx.1
 /python3.12_venv/pyvenv.cfg
+/freqtrade/user_data/
